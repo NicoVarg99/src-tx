@@ -225,8 +225,8 @@ void GenS2() {
   std::vector<int> v;
 
   // ID = identificatore del segmento di codice
-  s2[s1cursor++] = 1;
-  s2[s1cursor++] = 0;
+  s2[s2cursor++] = 1;
+  s2[s2cursor++] = 0;
 
   // AN = anno (decine ed unita')
   v = push2bcd(getDigit(ltmtx->tm_year - 100, 1));
