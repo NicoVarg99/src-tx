@@ -36,3 +36,5 @@ sleep 2
 
 echo -ne "\n* SYNC *   "
 date
+
+rm -f src.wav
