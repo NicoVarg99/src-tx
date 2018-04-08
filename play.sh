@@ -6,7 +6,7 @@
 echo "Waiting for second '50' to start playing..."
 
 #Sleep until next 50th second
-#sleep $(( $((60 + $((60 - $(date +%S) - 10)) )) % 60 ))
+sleep $(( $((60 + $((60 - $(date +%S) - 10)) )) % 60 ))
 
 #Play audio
 aplay ./src.wav -q &
